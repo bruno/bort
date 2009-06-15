@@ -2,7 +2,7 @@
 
 h1. Bort
 
-Bort is a base Rails 2.2 application that makes creating new projects easier and faster. Bort is developed and maintained by "Fudge Studios":http://www.fudgestudios.com, "Jim Neath":http://jimneath.org and "Matt Hall":http://matthall.wordpress.com
+Bort is a base Rails 2.3 application that makes creating new projects easier and faster. Bort is developed and maintained by "Fudge Studios":http://www.fudgestudios.com, "Jim Neath":http://jimneath.org and "Matt Hall":http://matthall.wordpress.com
 
 If you have any suggestions for improvements then feel free to leave a request on "User Voice":http://bort.uservoice.com
 
@@ -44,15 +44,12 @@ h3. Rspec & Rspec-rails
 You should be testing your code, so Bort comes with Rspec and Rspec-rails already installed so you're
 ready to roll.
 
+Rspec and Rspec-rails are no longer in the gems directory however you still need 1.2.6.
+
 h3. Exception Notifier
 
 You don't want your applications to crash and burn so Exception Notifier is already installed to let 
 you know when everything goes to shit.
-
-h3. Asset Packager
-
-Packages up your css/javascript so you're not sending 143 files down to the user at the same time. Reduces
-load times and saves you bandwidth.
 
 h2. Routes
 
