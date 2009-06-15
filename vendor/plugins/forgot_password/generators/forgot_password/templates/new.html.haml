@@ -1,0 +1,13 @@
+%h1
+  Forgot Your Password?
+- % form_for(@<haml:loud> file_name </haml:loud>) do |f|
+- %= f.error_messages
+%p
+  That's okay!  We forget ours too.  Give us your email address and we'll send you a link to reset your password.
+%p
+  - %= f.label :email
+  %br
+  - %= f.text_field :email
+%p
+  - %= f.submit "Submit"
+- % end
